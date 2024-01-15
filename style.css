@@ -231,6 +231,51 @@ margin: 0px auto 60px;
     font-weight: bold;
     text-align: center;
   }
+/* apartment section */
+
+.apartment-section
+{
+    padding: 50px 130px;
+}
+.apartment-1
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.app
+{
+    padding: 30px 50px 30px 30px;
+     display: grid;
+     gap: 20px;
+     border-radius: 16px;
+
+}
+.app-icon
+{
+    font-size: 35px;
+}
+.app h3{
+    color: #131318;
+font-size: 24px;
+font-weight: 800;
+}
+.app-des
+{
+    color: #5A5A5D;
+} 
+.app-1
+{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.app-2{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+
+
 
 
 /* responsive works */
