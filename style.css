@@ -16,10 +16,11 @@
     border-style: none;
 background: #FF5400;
 }
-/* .checkbtn{
-    font-size: 20px;
-    float: right;
-} */
+.x{
+    font-size: 40px;
+    font-style:oblique;
+    color:#9014E7;
+} 
 .fa-bars
 {
     font-size: 30px;
