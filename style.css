@@ -329,8 +329,6 @@ background: rgba(41, 206, 246, 0.05);
     border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
-/* margin-top: 20px; */
-/* width: 50%; */
 }
 
 /*deal-seciton  */
@@ -338,7 +336,6 @@ background: rgba(233, 68, 68, 0.05);
 
 .deal-section{
     padding: 50px 130px;
-    /* border: 2px solid purple; */
     
 
 }
@@ -428,7 +425,52 @@ margin-bottom: 10px;
     float: left;
 }
 
+/* iframe section */
+.iframe-section
+{
+    padding: 50px 130px;
 
+}
+.iframe
+{
+    display: flex;
+    justify-content: space-between;
+}
+.iframe-1
+{
+  width: 48%;
+}
+.iframe-1-sub
+{
+    display: grid;
+    gap: 20px;
+}
+.iframe-1-sub p
+{
+    color: #5A5A5D;
+}
+.iframe-1-sub h2{
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+}
+.iframe-1-sub ul
+{
+    list-style-position: inside;
+}
+.iframe-button{
+    margin-top: 20px;
+}
+.iframe-2
+{
+    width: 48%;
+    
+}
+.iframe-2  video
+{
+  border-radius: 9px;
+  
+}
 
 
 
@@ -978,5 +1020,41 @@ margin-bottom: 10px;
 {
     float: left;
 }
+
+/* iframe section */
+.iframe-section
+{
+    padding: 0px 20px;
+    margin-bottom: 50px;
+
+}
+.iframe
+{
+    flex-direction: column;
+    gap: 20px;
+}
+.iframe-1
+{
+  width: 100%;
+}
+.iframe-1-sub
+{
+    /* display: grid; */
+    gap: 10px;
+}
+.iframe-1-sub h2{
+    font-size: 20px;
+}
+.iframe-button{
+    margin-top: 20px;
+}
+.iframe-2
+{
+    width: 100%;
+    
+}
+
+
+
 
 }
