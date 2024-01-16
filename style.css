@@ -17,6 +17,17 @@
 background: #FF5400;
 }
 /* header part */
+.travel
+{
+    color: #FF5400;
+
+}
+.hero-travel
+{
+    color: #131318;
+font-size: 30px;
+font-weight: 800;
+}
 header{
    padding: 50px 130px;
 }
@@ -386,6 +397,45 @@ font-size: 32px;
 font-weight: 800;
 }
 
+/* footer section */
+footer{
+    padding: 70px 280px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-section{
+    display: grid;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+.footer-title
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+.footer-about
+{
+    color: #5A5A5D;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+footer>p
+{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 300;
+}
 
 
 
@@ -603,8 +653,17 @@ margin: 0px auto 60px;
     font-weight: 700;
 }
 
-
-
+/* footer  */
+footer{
+    padding: 20px;
+    margin-top: 50px;
+}
+.footer-section{
+    margin-bottom: 30px;
+}
+footer>p{
+    margin-top: 20px;
+}
 
 
 }
