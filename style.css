@@ -237,11 +237,27 @@ margin: 0px auto 60px;
 {
     padding: 50px 130px;
 }
+.app-title,.app-para{
+    text-align: center;
+}
+.app-title
+{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 30px;
+}
+.app-para
+{
+    color: rgba(19, 19, 24, 0.70);
+    width: 70%;
+    margin: 30px auto 30px;
+}
 .apartment-1
 {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
 }
 .app
 {
@@ -272,6 +288,20 @@ background: rgba(251, 181, 99, 0.05);
 .app-2{
     border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
+}
+.apartment-2
+{
+    margin: 20px auto 0px;
+    width: 50%;
+
+}
+.app-3
+{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+/* margin-top: 20px; */
+/* width: 50%; */
 }
 
 
@@ -422,6 +452,29 @@ margin: 0px auto 60px;
     grid-column: 1/span 1;
     grid-row: 7/span 1;
 }
+
+/*apartment section  */
+.apartment-section
+{
+    padding: 0;
+}
+.app-title
+{
+    font-size: 25px;
+}
+.apartment-1
+{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+.apartment-2
+{
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto 20px;
+}
+
 
 
 
