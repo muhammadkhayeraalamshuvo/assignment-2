@@ -16,6 +16,15 @@
     border-style: none;
 background: #FF5400;
 }
+/* .checkbtn{
+    font-size: 20px;
+    float: right;
+} */
+.fa-bars
+{
+    font-size: 30px;
+    display: none;
+}
 /* header part */
 .travel
 {
@@ -56,7 +65,12 @@ header{
 .nav-bar ul li a
 {
     text-decoration: none;
+    color: var(--Dark-02, #424247);
+    font-weight: 400;
 
+}
+#home{
+    color: #FF5400;
 }
 /* explore section */
 .explore-section
@@ -441,37 +455,41 @@ footer>p
 
 /* responsive works */
 @media  screen and (max-width:600px) {
-     .header{
+    header{
         padding: 0px 0px;
-        margin: 0;
-        display: none;
-
-    }
-    .nav-bar{
-        padding: 0px 0px;
-        position:relative;
-        left: -101px;
-        display: none;
-    
-        width: 220px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+     .nav-bar
+     {
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
-    }
-    .nav-title
-    {
-        padding: 0;
-        margin: 0;
-         justify-content: flex-start;
-        align-items: flex-start;
-        gap: 50px; 
-        display: none;
-    }
-    .nav-bar>ul 
-    {
-        display: none;
-    } 
+        align-items: center;
+        padding: 20px;
+     }
+     .fa-bars{
+        display: block;
+     }
+     .nav-title
+     {
+         display: flex;
+         align-items: center;
+         gap: 10px;
+     }
+     .nav-bar>ul
+     {
+       
+         display: none;
+     }
+     .nav-bar ul li
+     {
+         display: none;
+     }
+     .nav-bar ul li a
+     {
+         display: none;
+     
+     }
     .explore-section{
         
         /* max-width: 340px; */
