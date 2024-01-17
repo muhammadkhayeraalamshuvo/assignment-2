@@ -703,6 +703,7 @@ footer>p
     border-radius: 16px;
      width: 90%;
     background-repeat: no-repeat;
+    background-position: center;
     }
     .explore-1 h1{
         color: #FFF;
